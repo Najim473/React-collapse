@@ -24,7 +24,7 @@ const CollapseTwo = () => {
             <div className="container">
 
                 <div className="textBox">
-                    <h1>FAQ</h1>
+                    <p style={{ fontSize: '20px', background: '#fff', textAlign: 'center', padding: '10px 0' }}>When ope a button another one is close</p>
                     <div className="questions">
                         <div>
                             <button
