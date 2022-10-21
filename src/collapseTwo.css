@@ -1,0 +1,37 @@
+.collapsible-two{
+    margin: 30px 0;
+}
+.collapsible-two .toggle-two{
+    background: rgb(73, 83, 230);
+    cursor: pointer;
+    border: unset;
+    border: unset;
+    padding: .3rem;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: .5rem;
+}
+
+.collapsible-two .content-parent-two{
+    height: 0px;
+    overflow: hidden;   
+    transition: height ease 1s; 
+   margin-top: -5px;
+   background: rgb(175, 128, 128);
+
+}
+.collapsible-two .content-parent-two.show-two{
+    height: 100px;
+    background: rgb(175, 128, 128);
+}
+.content-parent-two.not-active{
+    height: 0px;
+}
+.collapsible-two .content-two{
+    border: 1px solid #afafaf;
+    padding: .5rem;
+    border-radius: 5px;
+   margin: 20px;
+   background: rgb(175, 128, 128);
+
+}

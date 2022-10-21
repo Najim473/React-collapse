@@ -1,0 +1,33 @@
+.container{
+    margin-top: 30px;
+    background: #000;
+}
+ .textBox{
+    background: rgb(180, 192, 136);
+    padding: 20px;
+ }
+ .questions{
+    background: rgb(143, 174, 189);
+    padding: 20px;
+ }
+ button{
+    background: rgb(219, 185, 223);
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+ } 
+ .p1{
+    height: 150px;
+    transition: .5s ease;
+ }
+ .p2, .p3, .p4, .p5{
+    transition: .5s ease;
+    height: 50px;
+ }
+ .p1.not-active, .p2.not-active, .p3.not-active, .p4.not-active, .p5.not-active{
+    height: 0;
+    opacity: 0;
+}
+ 
